@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:paddingRight="20dp"
+        android:orientation="horizontal">
+        <vn.nks.loclt.time_line.untils.TimelineView
+            android:id="@+id/time_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingBottom="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="20dp"
+            app:line="@color/colorPrimary"
+            app:line_size="2dp"
+            app:marker_size="60dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                >
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#CCC"
+                    android:padding="10dp"
+
+                    android:paddingLeft="35dp"
+                    android:paddingRight="16dp"
+                    android:text="
+I am using Ubuntu 12.04 stable version and oracle virtual box 4.1.2_ubuntu
+
+Have a ISO file of snow leopard with me, When I run virtual box I got following error:
+
+FATAL! Could not read from the boot medium!System halted.
+I have Selected setting, storage, IDE controller > snow leopard.
+
+I have also run ISO file in vmware player, it shows me following message.
+
+Operating system not found.
+Still giving me an error, Did ISO image should be bootable or it is always?
+
+Can anybody tell from where i can download latest version of Mac OS x with Xcode. Xcode is important for me.
+
+Also any other good option to run Mac OS virtually on Ubuntu. If anyone have links for that please share." />
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
